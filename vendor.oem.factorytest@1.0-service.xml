@@ -1,0 +1,12 @@
+<!-- IDiagv Service -->
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.oem.factorytest.diagv</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IDiagv</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

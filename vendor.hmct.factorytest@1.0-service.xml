@@ -1,0 +1,13 @@
+<!-- IDiagv Service -->
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.hmct.factorytest.diagv</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IDiagv</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IDiagv/default</fqname>
+    </hal>
+</manifest>
